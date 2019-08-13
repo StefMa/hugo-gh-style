@@ -1,0 +1,4 @@
+baseURL: http://hugo-gh-style.com
+languageCode: en-us
+title: Hugo GitHub Style
+theme: hugo-gh-style

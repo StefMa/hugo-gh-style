@@ -1,0 +1,13 @@
+<!-- Header -->
+{{ partial "header.html" . }}
+
+<h1>{{ .Title }}</h1>
+
+<!-- Loop through all posts -->
+{{ range .Pages }}
+  <a href="{{ .RelPermalink }}"><h4>{{ .Title }}</h4></a>
+{{ end }}
+<!-- End loop -->
+
+<!-- Footer -->
+{{ partial "footer.html" . }}
